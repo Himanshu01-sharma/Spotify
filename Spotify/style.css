@@ -35,10 +35,13 @@ nav ul li {
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: column;
+    gap: 2px;
     margin: 23px auto;
     width: 70%;
     border-radius: 12px;
-    background-image: url("shraddha.jpeg");
+    background-image: url("music.avif");
+    background-size: cover;
 
 }
 .bottom {
@@ -56,6 +59,7 @@ nav ul li {
 #myProgressBar{
     width: 80vw;
     text-align: center;
+    cursor:pointer;
 }
 
 .icons i{
@@ -67,14 +71,23 @@ nav ul li {
 height: 50px;
 display: flex;
 background-color: white;
-width: 80%;
+width: 40%;
 color: black;
 border-radius: 35px;
 text-align: center;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1.2rem;
+
 
 }
 
 .songItem img {
 width: 45px;
+border-radius: 35px;
 
+}
+
+.songItemcontainer{
+    margin: 76px;
 }

@@ -12,7 +12,7 @@
     <nav class = "navi" >
         
         <ul class = "order">
-        <li class ="brand"> <img src="hs.png" alt="Spotify Logo" class="logo">Spotify</li>
+        <li class ="brand"> <img src="Logo.svg" alt="Spotify Logo" class="logo">Spotify</li>
           <li> Home </li>
             <li>Music</li>
             <li>Spotify </li>
@@ -24,10 +24,42 @@
             <div class="songList">
                 <h1> Best Of NCS - No Copyright Sounds</h1>
             </div>
+            <div class="songItemcontainer">
             <div class="songItem">
                 <img src ="Let Me Love You.jpeg" alt="not loded" >
-                <span>Let me Love you</span>
-                <span class="songlistplay"><span> 05:34</span> <i class="fa-solid fa-3x fa-backward" style="color: #63E6BE;"></i></span>
+                <span class=" songname">Let me Love you</span>
+                <span class="songlistplay"><span class ="timestamp"> 05:34</span> <i id ="1" class="fa-solid fa-1x fa-play" style="color: #2fdfaa;"></i></span>
+            </div>
+             <div class="songItem">
+                <img src ="baggi4song.jpeg" alt="not loded" >
+                <span class=" songname" >Tere bina Gujaara Hai</span>
+                <span class="songlistplay"><span class ="timestamp"> 05:34</span> <i id ="2" class="fa-solid fa-x fa-play" style="color: #2fdfaa;"></i></span>
+            </div>
+            <div class="songItem">
+                <img src ="puspa song.jpeg" alt="not loded" >
+                <span class=" songname">puspa puspa</span>
+                <span class="songlistplay"><span class ="timestamp"> 05:34</span> <i id ="3" class=" songItemPlay fa-solid fa-x fa-play" style="color: #2fdfaa;"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src ="puspa song.jpeg" alt="not loded" >
+                <span class=" songname">puspa puspa</span>
+                <span class="songlistplay"><span class ="timestamp"> 05:34</span> <i id ="4" class=" songItemPlay fa-solid fa-x fa-play" style="color: #2fdfaa;"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src ="puspa song.jpeg" alt="not loded" >
+                <span class=" songname">puspa puspa</span>
+                <span class="songlistplay"><span class ="timestamp"> 05:34</span> <i id ="5" class=" songItemPlay fa-solid fa-x fa-play" style="color: #2fdfaa;"></i> </span>l
+            </div>
+            <div class="songItem">
+                <img src ="puspa song.jpeg" alt="not loded" >
+                <span class=" songname">puspa puspa</span>
+                <span class="songlistplay"><span class ="timestamp"> 05:34</span> <i id ="6" class=" songItemPlay fa-solid fa-x fa-play" style="color: #2fdfaa;"></i> </span>
+            </div>
+            <div class="songItem">
+                <img src ="puspa song.jpeg" alt="not loded" >
+                <span class=" songname">puspa puspa</span>
+                <span class="songlistplay"><span class ="timestamp"> 05:34</span> <i id ="7" class=" songItemPlay fa-solid fa-x fa-play" style="color: #2fdfaa;"></i> </span>
+            </div>
             </div>
             <div class="songBanner"></div>
         </div>
@@ -36,11 +68,19 @@
             <input type="range" name="range" id="myProgressBar" min="0" max ="100">
 <div class="icons">
     <!-- fontArsome -->
-     <i class="fa-solid fa-3x fa-backward" style="color: #63E6BE;"></i>
-<i class="fa-solid fa-3x fa-play" style="color: #2fdfaa;"></i>
-<i class="fa-solid fa-3x fa-forward" style="color: #63E6BE;"></i>
+     <i class="fa-solid fa-3x fa-backward" id ="previous" ></i>
+<i class="fa-solid fa-3x fa-play" id ="masterPlay" style="color: #2fdfaa;"></i>
+<i class="fa-solid fa-3x fa-forward" id="next" style="color: #63E6BE;"></i>
 </div>
+
+<div class="songInfo">
+    <img src="vs.mp4" alt="" >Let me love You- justin Bieber 
+</div>
+
         </div>
     </nav>
+    <script src ="app.js"></script>
 </body>
 </html>
+
+ 

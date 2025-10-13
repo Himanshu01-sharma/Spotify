@@ -114,7 +114,7 @@ element.addEventListener('click',(e)=>{
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-play-circle');
     })
-
+l̥ō
      
 
 

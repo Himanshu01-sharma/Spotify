@@ -40,7 +40,7 @@ nav ul li {
     margin: 23px auto;
     width: 70%;
     border-radius: 12px;
-    background-image: url("music.avif");
+    background-image: url("./img/music.avif");
     background-size: cover;
 
 }

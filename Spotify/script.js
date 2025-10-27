@@ -19,7 +19,7 @@ let songs = [
 
 songsItems.forEach((element,i)=>{
 console.log(element,i);
-element.getElementsByTagName("img")[0].src=songs[i].coverPath;
+element.getElementsByTagName("img")[0].src=songs[i].coverPath; 
 element.getElementsByClassName("songname")[0].innerText=songs[i].SongName;
 });
 
@@ -114,7 +114,7 @@ element.addEventListener('click',(e)=>{
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-play-circle');
     })
-l̥ō
+
      
 
 

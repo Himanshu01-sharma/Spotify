@@ -6,13 +6,13 @@ let masterPlay=document.getElementById('masterPlay');
 let  myProgressBar = document.getElementById('myProgressBar');
 let songsItems = Array.from(document.getElementsByClassName(`songItem`));
 let songs = [
-{SongName: "Salam-e-Isq",filepath: "./music/1.mp3",coverPath: "./img/1.avif"},
-{SongName: "Salam-e-Isq",filepath: "./music/2.mp3",coverPath: "./img/2.avif"},
-{SongName: "Salam-e-Isq",filepath: "./music/3.mp3",coverPath: "./img/3.avif"},
-{SongName: "Salam-e-Isq",filepath: "./music/4.mp3",coverPath: "./img/4.avif"},
-{SongName: "Salam-e-Isq",filepath: "./music/5.mp3",coverPath: "./img/5.avif"},
-{SongName: "Salam-e-Isq",filepath: "./music/6.mp3",coverPath: "./img/6.avif"},
-{SongName: "Salam-e-Isq",filepath: "./music/7.mp3",coverPath: "./img/7.avif"},
+{SongName: "Salam-e-Isq",filepath: ".music/1.mp3",coverPath: "./img/1.avif"},
+{SongName: "Salam-e-Isq",filepath: ".music/2.mp3",coverPath: "./img/2.avif"},
+{SongName: "Salam-e-Isq",filepath: ".music/3.mp3",coverPath: "./img/3.avif"},
+{SongName: "Salam-e-Isq",filepath: ".music/4.mp3",coverPath: "./img/4.avif"},
+{SongName: "Salam-e-Isq",filepath: ".music/5.mp3",coverPath: "./img/5.avif"},
+{SongName: "Salam-e-Isq",filepath: ".music/6.mp3",coverPath: "./img/6.avif"},
+{SongName: "Salam-e-Isq",filepath: ".music/7.mp3",coverPath: "./img/7.avif"},
 
 
 ]
